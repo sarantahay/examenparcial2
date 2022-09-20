@@ -1,0 +1,152 @@
+:root{
+--f7-theme-color:#000;
+--f7-navbar-bg-color: #fff; /*navbar*/
+--f7-navbar-text-color:#000;
+--f7-navbar-link-color:#000; /*link navbar*/
+--f7-bars-bg-color:#000;/*toolbar*/
+--f7-block-margin-vertical:20px;
+--f7-card-footer-border-color:transparent; 
+--color-gris:#8f8f8f;
+--color-negro:#000;
+}
+
+body{
+	font-weight: 900;
+	color: var(--color-negro);
+	font-size: 15px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.toolbar .tab-link{
+	color: #F4F4F4;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: inherit;
+}
+
+p{
+	margin: 1px;
+}
+.img-fluid{
+	max-width: 100%;
+	align-content: center;
+	
+}
+.block-title{
+	color: var(--color-negro);
+	font-size: 18px;
+	font-weight: 600;
+	overflow: inherit;
+}
+.letra-link-title{
+	font-size: 80%;
+}
+.letra-link-title span{
+	font-size: 85%;
+}
+
+
+.texto-inicial{
+	color: var(--f7-theme-color);
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 1.3;
+	text-align: center;
+}
+#list-products a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+}
+#list-products .card ul{
+	padding-left: 15px;
+	font-size: 11px;
+}
+#list-products .card li{
+	font-weight: normal;
+}
+
+.info-top{
+	background-color: #f2f2f2;
+	color: #888;
+	font-size: 14px;
+	font-weight: 600;
+}
+.list-info{
+	margin-top: 50%;
+}
+.letra-gris{
+	color: #aaa;
+}
+.texto-info{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 14px;
+}
+.precio-info{
+	font-weight: 600;
+	font-size: 20px;
+	text-align: end;
+	margin-right: 30px;
+}
+
+#productos .card-content{
+	background-color: #f2f2f2;
+	text-align: center;
+}
+#productos .card-footer{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+}
+#productos .card-footer a{
+	color: #fff;
+}
+#productos .nombre{
+	font-weight: 600;
+}
+#productos .categoria{
+	font-size: 14px;
+	color: #888;
+}
+.topdets{
+	align-content: center;
+	text-align: center;
+}
+.topdets p{
+	font-size: 10px;
+	font-weight: 200;
+	text-align: center;
+	padding: 10px 5px;
+}
+.bottdets{
+	align-content: center;
+	text-align: center;
+}
+.bottdets p{
+	font-size: 10px;
+	font-weight: 200;
+	text-align: center;
+	padding: 10px 5px;
+}
+.accdets{
+	align-content: center;
+	text-align: center;
+}
+.accdets p{
+	font-size: 10px;
+	font-weight: 200;
+	text-align: center;
+	padding: 10px 5px;
+}
+.gallery{
+	align-content: center;
+	text-align: center;
+	padding: 25px 0px;
+}
+
+.card-content{
+	padding: 15px 10px;
+}
